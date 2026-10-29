@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: name-that-llm-api
+    runtime: docker
+    rootDir: ml-service
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: CLASSIFIER_API_KEY
+        sync: false

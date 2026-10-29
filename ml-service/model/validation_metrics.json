@@ -1,0 +1,8 @@
+{
+  "validation_method": "GroupShuffleSplit by prompt_id, test_size=0.20, random_state=42",
+  "validation_rows": 540,
+  "classes": 18,
+  "accuracy": 0.29074074074074074,
+  "balanced_accuracy": 0.2907407407407407,
+  "warning": "Single grouped holdout; use repeated/grouped cross-validation for a more stable estimate."
+}
